@@ -86,8 +86,28 @@ h4{
     font-weight: normal;
     font-size: 20px;
 }
+
+.close{
+    visibility: hidden;
+}
+
+.tog img{
+    color: #eae5e5;
+    visibility: hidden;
+}
+#top{
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(82, 79, 75);
+}
+#top a{
+    color: #eae5e5;
+    text-decoration: none;
+}
+
 @media (max-width: 500px){
-    .navigate ul{
+    /*.navigate ul{
         gap: 7px;
     }
 
@@ -95,6 +115,33 @@ h4{
         background: transparent;
         font-size: 10px;
         padding: 5px;
+    }*/
+
+    .tog img{
+        visibility: visible;
+    }
+    .navbar{
+        height: 25px;
+    }
+
+    .navbar ul{
+        height: 100%;
+        width: 10rem;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 50px 10px;
+        top: 0%;
+        right: 0px;
+        background-color: #494949;
+        display: none;
+    }
+
+    .navbar ul a{
+        background: transparent;
+        font-size: 20px;
+        padding: 5px;
+        color: #f0e8e8;
     }
 
     #Adunmo{
